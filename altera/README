@@ -1,0 +1,6 @@
+This has been tested with Quartus 15.0.  YMMV, especially with other versions of Quartus.
+
+You'll need to run something like:
+$ altera_lib_mf.pl ${GEN_SRC_DIR} ${QUARTUS_DIR}/dist/quartus/eda/sim_lib/altera_mf.v
+$ altera_lib_lpm.pl ${GEN_SRC_DIR} ${QUARTUS_DIR}/dist/quartus/eda/sim_lib/220model.v
+

@@ -1,0 +1,13 @@
+This repository contains a collection of scripts to manipulate third-party EDA
+libraries and make them compatible with Verilator.  The Verilog-Perl library
+is necessary for at least some of the scripts:
+http://www.veripool.org/wiki/verilog-perl
+
+TODO
+* Regression tests to run the scripts
+* Regression tests to verify the functionality of the modified libraries
+* Support for different third-party library versions
+
+LICENSE
+Copyright (c) 2016, Two Sigma Open Source. All rights reserved. Released under the BSD three-clause license. See LICENSE.txt for details.
+
